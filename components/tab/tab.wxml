@@ -1,0 +1,12 @@
+<view class='tab'>
+   <view class='tabItem {{tabIndex==index?"tabActive":""}}' wx:for='{{tabTitle}}' wx:key='{{index}}'
+   data-index='{{index}}' bindtap='tabToggle'>
+    {{item}}
+   </view>
+</view>
+
+ <swiper current='{{tabIndex}}' duration='100' bindchange='swiperChange'>
+  <swiper-item wx:for='{{tabTitle}}' wx:key='{{index}}'>
+    <slot name='{{index}}'></slot>
+  </swiper-item>
+</swiper> 

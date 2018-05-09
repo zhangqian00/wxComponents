@@ -1,1 +1,6 @@
 /* pages/index/index.wxss */
+.title {
+  font-size: 32rpx;
+  padding: 20rpx;
+  background-color: pink;
+}

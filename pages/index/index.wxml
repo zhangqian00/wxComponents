@@ -1,0 +1,9 @@
+<!-- <view>Tab</view> -->
+<view class='title'>Tab切换</view>
+<view class='tab item'>
+  <tab tabTitle='{{tabTitle}}'>
+    <view slot='0'>home</view>
+    <view slot='1'>news</view>
+    <view slot='2'>about</view>
+  </tab>
+</view>

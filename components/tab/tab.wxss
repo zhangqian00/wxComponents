@@ -1,0 +1,17 @@
+.tab {
+  height: 100rpx;
+  font-size: 32rpx;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+}
+.tabItem {
+  display: flex;
+  align-items: center;
+}
+.tabActive {
+  border-bottom: 1px solid #009fff;
+  color: #009fff;
+}
