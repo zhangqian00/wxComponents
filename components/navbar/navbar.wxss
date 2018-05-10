@@ -1,0 +1,23 @@
+.navbar {
+  height: 100rpx;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.navbarActive {
+  border-bottom: 2rpx solid #009fff;
+  color: #009fff;
+}
+.navbarItem {
+  display: flex;
+  align-items: stretch;
+}
+.navbarItem .navbarTitle {
+  display: flex;
+  align-items: center;
+}
+.panelItem {
+  border-top: 2rpx solid #ccc;
+}

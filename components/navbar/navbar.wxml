@@ -1,0 +1,13 @@
+<view class='wrap'>
+  <view class='navbar'>
+    <view class='navbarItem' wx:for='{{navbarTitle}}' wx:key='{{index}}' data-index='{{index}}' bindtap='change'>
+      <view class='navbarTitle {{activeIndex===index?"navbarActive":""}}'>{{item}}</view>
+    </view>
+  </view>
+  <view class='tabPanel'>
+    <view class='panelItem {{activeIndex===index?"panelActive":""}}'
+    wx:for='{{navbarTitle}}' wx:key='{{index}}' hidden='{{activeIndex!==index}}'>
+      <slot name='{{index}}'></slot>
+    </view>
+  </view>
+</view>

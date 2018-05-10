@@ -7,7 +7,7 @@ Component({
     // 这里定义了innerText属性，属性值可以在组件使用时指定
     tabTitle: {
       type: Array,
-      value: ['One','Two','Three'] // 默认值
+      value: ['选项一','选项二','选项三'] // 默认值
     }
   },
   data: {

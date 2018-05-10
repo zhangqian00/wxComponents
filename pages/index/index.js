@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tabTitle: ['Home','News','About']
+    tabTitle: ['选项一','选项二','选项三']
   },
 
   /**
