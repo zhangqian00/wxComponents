@@ -27,8 +27,7 @@ Component({
     swiperChange: function(e){
       this.setData({
         tabIndex: e.detail.current
-      })
-      console.log(e)
+      });
     }
   }
 })
