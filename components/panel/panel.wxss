@@ -1,0 +1,42 @@
+.panel {
+  /* padding: 30rpx; */
+}
+.panel .panelItem {
+  /* margin-bottom: 10rpx;
+  padding: 10rpx 0; */
+  border-bottom: 1px solid #ccc;
+}
+.panel .panelItem .panelNav {
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.panelItem .panelImg {
+  margin-right: 24rpx;
+}
+.panelItem .panelImg image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.panelItem .panelInfo .infoTitle {
+  font-size: 34rpx;
+}
+.panelItem .panelInfo .infoText {
+  font-size: 26rpx;
+  color: #999;
+}
+.panel .linkMore {
+  display: flex;
+  justify-content: flex-end;
+}
+.panel .linkMore .linkBtn {
+  padding: 10rpx 20rpx;
+  font-size: 28rpx;
+  color: #586c94;
+}
+.panel .blockActive {
+  background-color: #ececec;
+}
+ .panel .linkMore .linkMoreActive {
+  color: #009fff;
+}

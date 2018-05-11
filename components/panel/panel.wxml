@@ -1,0 +1,16 @@
+<view class="panel">
+  <view class="panelItem"  wx:for='{{[1,2]}}' wx:key='{{index}}' hover-class="blockActive">
+      <navigator url="" class="panelNav" hover-stop-propagation='{{true}}'>
+          <view class="panelImg">
+              <image class="" src="../../images/wx.jpg" />
+          </view>
+          <view class="panelInfo">
+              <view class="infoTitle">标题一</view>
+              <view class="infoText">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+          </view>
+      </navigator>
+  </view>
+  <view class="linkMore">
+      <view class="linkBtn" hover-class="linkMoreActive">查看更多</view>
+  </view>
+</view>

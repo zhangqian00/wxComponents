@@ -18,3 +18,9 @@
     </navbar>
   </view>
 </view>
+<view class='block'>
+  <view class='title'>panel图文面板</view>
+  <view class='panel item'>
+     <panel-view></panel-view> 
+  </view>
+</view>
