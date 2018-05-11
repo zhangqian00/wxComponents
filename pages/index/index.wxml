@@ -1,18 +1,20 @@
-
-<view class='title'>滑动Tab切换</view>
-<view class='tab item'>
-  <tab tabTitle='{{tabTitle}}'>
-    <view slot='0'>111</view>
-    <view slot='1'>222</view>
-    <view slot='2'>333</view>
-  </tab>
+<view class='block'>
+  <view class='title'>滑动Tab切换</view>
+  <view class='tab item'>
+    <tab tabTitle='{{tabTitle}}'>
+      <view slot='0'>111</view>
+      <view slot='1'>222</view>
+      <view slot='2'>333</view>
+    </tab>
+  </view>
 </view>
-
-<view class='title'>不可滑动Tab切换</view>
-<view class='navbar item'>
-  <navbar>
-    <view class='navbarItem' slot='0'>1111</view>
-    <view class='navbarItem' slot='1'>222</view>
-    <view class='navbarItem' slot='2'>333</view>
-  </navbar>
+<view class='block'>
+  <view class='title'>不可滑动Tab切换</view>
+  <view class='navbar item'>
+    <navbar>
+      <view class='navbarItem' slot='0'>111</view>
+      <view class='navbarItem' slot='1'>222</view>
+      <view class='navbarItem' slot='2'>333</view>
+    </navbar>
+  </view>
 </view>
