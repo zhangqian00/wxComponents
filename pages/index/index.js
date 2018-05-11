@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tabTitle: ['选项一','选项二','选项三']
+    tabTitle: ['选项一','选项二','选项三'],
+    innerData: [{
+      title: '这是标题1',
+      imgUrl: '../../images/wx.jpg',
+      info: '床前明月光，疑是地上霜。举头望明月，低头思故乡。'
+    }, {
+      title: '这是标题2',
+      imgUrl: '../../images/wx.jpg',
+      info: '可伸缩元素能够随着框的缩小或扩大而缩写或放大。'
+    }]
   },
 
   /**

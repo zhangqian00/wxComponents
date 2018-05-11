@@ -1,12 +1,12 @@
 <view class="panel">
-  <view class="panelItem"  wx:for='{{[1,2]}}' wx:key='{{index}}' hover-class="blockActive">
+  <view class="panelItem"  wx:for='{{innerData}}' wx:key='{{index}}' hover-class="blockActive">
       <navigator url="" class="panelNav" hover-stop-propagation='{{true}}'>
           <view class="panelImg">
-              <image class="" src="../../images/wx.jpg" />
+              <image class="" src="{{item.imgUrl}}" />
           </view>
           <view class="panelInfo">
-              <view class="infoTitle">标题标题标题</view>
-              <view class="infoText">文章摘要，文章摘要，文章摘要，文章摘要，文章摘要，文章摘要，文章摘要。</view>
+              <view class="infoTitle">{{item.title}}</view>
+              <view class="infoText">{{item.info}}</view>
           </view>
       </navigator>
   </view>
